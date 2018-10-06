@@ -17,7 +17,7 @@
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 [0] = KEYMAP( /* Base */
-  LCTL(KC_Z),  LCTL(KC_X),  LCTL(KC_C), LCTL(KC_V) \
+  LCMD(KC_Z),  LCMD(KC_X),  LCMD(KC_C), LCMD(KC_V) \
 ),
 };
 
